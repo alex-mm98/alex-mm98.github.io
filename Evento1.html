@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/bootstrap.css">
+			<title>AgendaUGR</title>
+		</head>
+		<body>
+
+		<header>
+				<link rel="shortcut icon" href="/sites/default/files/favicon.ico" type="image/vnd.microsoft.icon">
+				<img id="logo" src="./img/ugr.png" class="float-left">
+				<h1>Agenda de la UGR</h1>
+				<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+					<!-- Brand -->
+					<a class="navbar-brand" href="Index.html">Agenda UGR</a>
+
+						<!-- Links -->
+						<ul class="navbar-nav boton1">
+							<li class="nav-item">
+								<a class="nav-link" href="Promocionate.html">Promociónate</a>
+							</li>
+
+							<!-- Dropdown -->
+							<li class="nav-item dropdown boton2">
+								<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+									Seleccion de Idioma
+								</a>
+								<div class="dropdown-menu">
+									<a class="dropdown-item" href="#">Español</a>
+									<a class="dropdown-item" href="#">English</a>
+									<a class="dropdown-item" href="#">Deutch</a>
+								</div>
+							</li>
+						</ul>
+						<form class="form-inline boton3" action="/action_page.php">
+							<input class="form-control mr-sm-2" type="text" placeholder="Search">
+							<button class="btn btn-success" type="submit">Buscar</button>
+						</form>
+						<li class="nav-item boton4">
+							<a class="navbar-brand" href="Login.html">
+								<button type="button" class="btn btn-danger">Login</button>
+							</a>
+						</li>
+				</nav>
+		</header>
+
+		<!--Aside Menú Lateral-->
+		<div class="menucentral">
+			<aside class="menulateral">
+				<ul class="nav flex-column">
+						<li class="nav-item elemento">
+							<div class="btn-group">
+								<a href="Categorias.html">
+									<Button type="button" class="btn btn-danger botonmenu1">Categorias</button>
+								</a>
+								<button type="button" class="btn btn-danger botonmenu2 dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+								</button>
+								<div class="dropdown-menu">
+									<a class="dropdown-item" href="#">Teatro y Cine</a>
+									<a class="dropdown-item" href="#">Conciertos</a>
+									<a class="dropdown-item" href="#">Académicos</a>
+									<a class="dropdown-item" href="#">Turismo</a>
+									<a class="dropdown-item" href="#">Deportes</a>
+								</div>
+							</div>
+						</li>
+						<li class="nav-item elemento">
+								<a href="BuscarEvento.html">
+										<button type="button" class="btn btn-danger btn-block">Buscar Evento</button>
+								</a>
+						</li>
+						<li class="nav-item elemento">
+								<a href="PreguntasFrecuentes.html">
+								<button type="button" class="btn btn-danger btn-block">Preguntas Frecuentes</button>
+								</a>
+						</li>
+						<li class="nav-item elemento">
+								<a href="AtencionCliente.html">
+								<button type="button" class="btn btn-danger btn-block">Atenccion al Cliente</button>
+								</a>
+						</li>
+				</ul>
+
+        <div class="botonessociales">
+						<a href="https://facebook.com/" class="fa fa-facebook"></a>
+						<a href="https://twitter.com/" class="fa fa-twitter"></a>
+						<a href="https://google.com/" class="fa fa-google"></a>
+				</div>
+
+			</aside>
+
+			<!--Menu Central donde se mostrarán los eventos-->
+			<div class="menueventos">
+				<div id="titulo">Cine Club Universitario. Charles Chaplin.</div>
+				<div class="infoevento row">
+					<div class="col-sm-4">
+										<img src="./img/evento1-1.jpg" class="imagenevento" atl="Imagen no encontrada.">
+										<p><b>Fecha:</b> 20 de Mayo de 2019</p>
+										<p><b>Precio:</b> Gratuito</p>
+										<button type="button" class="btn btn-success">Comentarios</button>
+										<button type="button" class="btn btn-info">Reservar</button>
+					</div>
+					<div class="col-sm-8 drchevento">
+								<p>Cineclub universitario. Ciclo “No necesitaban palabras, tenían rostros (joyas del cine mudo XI): maestro Chaplin (etapa Essanay)”</p>
+								<p class="texto">El Cineclub universitario dedica un ciclo a repasar la etapa del director y actor Charles Chaplin en los estudios Essanay, para quien escribió, dirigió y actuó en 15 películas, producidas por Jesse T. Robbins.
+										<p class="tabulacion"><b>Lugar:</b> Espacio V Centenario – Sala Máxima.</p>
+										<p class="tabulacion"><b>Hora:</b> 21:00 h.</p>
+										<p class="tabulacion"><b>Entrada libre</b> hasta completar aforo.</p>
+										<p class="tabulacion">Todas las proyecciones en versión original con subtítulos en español.</p>
+										<p class="tabulacion">Organiza: Cineclub universitario/Aula de cine.</p>
+								</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer class="footer">
+			<div class="footer-copyright text-center py-3">© 2018 Copyright:
+				<a href="https://www.ugr.es"> UGR.es</a>
+			</div>
+		</footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
